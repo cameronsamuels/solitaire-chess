@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'ChessCase';
+  src: /*url('casefont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('casefont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+body {
+  width: 500px;
+  height: 500px;
+  background: #eee;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'ChessCase';
+  font-size: 50px;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
